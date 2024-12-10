@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
             getSupportFragmentManager()
                     .beginTransaction()
                     .setReorderingAllowed(true)
-                    .add(R.id.fr_container,
+                    .replace(R.id.fr_container,
                             fragment)
                     .commit();
         });
